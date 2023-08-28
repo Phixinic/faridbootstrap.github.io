@@ -24,7 +24,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto me-auto mb-2 mb-lg-0">
+          <ul class="navbar-nav ms-auto ">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#home">Home</a>
             </li>
@@ -38,10 +38,7 @@
               <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
-          <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-            <button class="btn btn-success " type="submit">Search</button>
-          </form>
+         
         </div>
       </div>
     </nav>
@@ -57,8 +54,7 @@
         <path
           fill="#ffffff"
           fill-opacity="1"
-          d="M0,128L36.9,192L73.8,192L110.8,32L147.7,320L184.6,160L221.5,192L258.5,192L295.4,320L332.3,32L369.2,256L406.2,128L443.1,192L480,224L516.9,288L553.8,128L590.8,160L627.7,192L664.6,128L701.5,32L738.5,224L775.4,288L812.3,32L849.2,160L886.2,288L923.1,256L960,128L996.9,32L1033.8,128L1070.8,128L1107.7,288L1144.6,96L1181.5,288L1218.5,0L1255.4,224L1292.3,32L1329.2,224L1366.2,96L1403.1,160L1440,96L1440,320L1403.1,320L1366.2,320L1329.2,320L1292.3,320L1255.4,320L1218.5,320L1181.5,320L1144.6,320L1107.7,320L1070.8,320L1033.8,320L996.9,320L960,320L923.1,320L886.2,320L849.2,320L812.3,320L775.4,320L738.5,320L701.5,320L664.6,320L627.7,320L590.8,320L553.8,320L516.9,320L480,320L443.1,320L406.2,320L369.2,320L332.3,320L295.4,320L258.5,320L221.5,320L184.6,320L147.7,320L110.8,320L73.8,320L36.9,320L0,320Z"
-        ></path>
+          d="M0,128L36.9,192L73.8,192L110.8,32L147.7,320L184.6,160L221.5,192L258.5,192L295.4,320L332.3,32L369.2,256L406.2,128L443.1,192L480,224L516.9,288L553.8,128L590.8,160L627.7,192L664.6,128L701.5,32L738.5,224L775.4,288L812.3,32L849.2,160L886.2,288L923.1,256L960,128L996.9,32L1033.8,128L1070.8,128L1107.7,288L1144.6,96L1181.5,288L1218.5,0L1255.4,224L1292.3,32L1329.2,224L1366.2,96L1403.1,160L1440,96L1440,320L1403.1,320L1366.2,320L1329.2,320L1292.3,320L1255.4,320L1218.5,320L1181.5,320L1144.6,320L1107.7,320L1070.8,320L1033.8,320L996.9,320L960,320L923.1,320L886.2,320L849.2,320L812.3,320L775.4,320L738.5,320L701.5,320L664.6,320L627.7,320L590.8,320L553.8,320L516.9,320L480,320L443.1,320L406.2,320L369.2,320L332.3,320L295.4,320L258.5,320L221.5,320L184.6,320L147.7,320L110.8,320L73.8,320L36.9,320L0,320Z"></path>
       </svg>
     </section>
     <!-- Akhir jumbotron -->
@@ -155,10 +151,45 @@
             <h2>Gallery</h2>
           </div>
         </div>
-        <div class="row">
+        <div class="row justify-content-center">
           <div class="col-md-3">
             <a href="#">
-            <img src="img/gallery/farid.jpg" alt="Farid_1" class="img-fluid" />
+            <img src="gallery/farid.jpg" alt="Farid_1" class="img-fluid gallery-img" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+            <img src="gallery/farid2.jpg" alt="Farid_1" class="img-fluid gallery-img" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+            <img src="gallery/farid3.jpg" alt="Farid_1" class="img-fluid gallery-img" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+            <img src="gallery/farid4.jpg" alt="Farid_1" class="img-fluid gallery-img" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+            <img src="gallery/farid5.jpg" alt="Farid_1" class="img-fluid gallery-img" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+            <img src="gallery/farid6.jpg" alt="Farid_1" class="img-fluid gallery-img" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+            <img src="gallery/farid7.jpg" alt="Farid_1" class="img-fluid gallery-img" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+            <img src="gallery/farid8.jpg" alt="Farid_1" class="img-fluid gallery-img" />
             </a>
           </div>
         </div>
@@ -221,7 +252,13 @@
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-      AOS.init();
+      AOS.init({
+        once: true,
+        duration: 2000,
+      });
+
+      const galleryImage = document.querySelectorAll('.gallery-img');
+
     </script>
 
     <script>
