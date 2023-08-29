@@ -26,17 +26,21 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto ">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              <a class="nav-link nav-home" aria-current="page" href="#home">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
+              <a class="nav-link nav-about" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#projects">Projects</a>
+              <a class="nav-link nav-projects" href="#projects">Projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
+              <a class="nav-link nav-gallery" href="#gallery">Gallery</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link nav-contact" href="#contact">Contact</a>
+            </li>
+            
           </ul>
          
         </div>
@@ -60,7 +64,7 @@
     <!-- Akhir jumbotron -->
 
     <!-- About -->
-    <div id="About"></div>
+    <div id="about"></div>
     <section id="about">
       <div class="container">
         <div class="row text-center mb-3">
@@ -68,11 +72,11 @@
             <h2>About me</h2>
           </div>
         </div>
-        <div class="row justify-content-center fs-5 text-center">
-          <div class="col-md-4">
+        <div class="row justify-content-center fs-5 text-center ">
+          <div class="col-md-4" data-aos="fade-right">
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate, assumenda. Consequatur fugiat doloremque numquam alias saepe quisquam ducimus? Ipsum, eius.</p>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-left">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, quis pariatur. Corporis cum quibusdam eum sapiente dolorum atque. Cum ex reiciendis alias commodi ipsum ad.</p>
           </div>
         </div>
@@ -256,9 +260,6 @@
         once: true,
         duration: 2000,
       });
-
-      const galleryImage = document.querySelectorAll('.gallery-img');
-
     </script>
 
     <script>
@@ -289,5 +290,7 @@
           .catch(error => console.error('Error!', error.message))
       })
     </script>
+
+    <script src="navbar.js"></script>
   </body>
 </html>
