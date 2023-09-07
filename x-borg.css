@@ -1,44 +1,5 @@
-body {
-  overflow-x: hidden;
-}
-
-.jumbotron {
-  background-color: #5d91e3;
-  padding-top: 7rem;
-}
-
-#projects {
-  background-color: #5d91e3;
-}
-
-#gallery {
-  padding-bottom: 10rem;
-}
-
-section {
-  padding-top: 5rem;
-}
-
-.gallery-img {
-  width: 100%;
-}
-
-#gallery .row > * {
-  padding: 0;
-}
-
-.bghome {
-  background-color: #5d91e3;
-  height: 5rem;
-}
-
-#bgabout {
-  background-color: white;
-  height: 10rem;
-}
-
 /* My fav hero in Mobile legend */
-.ml-box {
+.ml-box-xborg {
   position: relative;
   background-color: #0d6efd;
   border-radius: 10px;
@@ -46,7 +7,7 @@ section {
   overflow: hidden;
 }
 
-.ml-box::before {
+.ml-box-xborg::before {
   content: 'HEKA';
   position: absolute;
   color: #fff;
@@ -60,14 +21,14 @@ section {
   z-index: 1;
 }
 
-.ml-box:hover::before {
-  left: 72%;
+.ml-box-xborg:hover::before {
+  left: 75%;
   transform: translate(-50%, 0);
   opacity: 0.3;
 }
 
-.ml-box::after {
-  content: 'Benedetta';
+.ml-box-xborg::after {
+  content: 'Xborg';
   position: absolute;
   color: #fff;
   font-size: 4.3em;
@@ -79,13 +40,13 @@ section {
   transition: 0.5s;
 }
 
-.ml-box:hover::after {
+.ml-box-xborg:hover::after {
   left: 50%;
   transform: translate(-50%, 0);
-  opacity: 0.2;
+  opacity: 0.5;
 }
 
-.ml-name {
+.ml-name-xborg {
   position: absolute;
   width: 100%;
   color: #fff;
@@ -96,7 +57,7 @@ section {
   left: 25%;
 }
 
-.ml-box:hover .ml-name {
+.ml-box-xborg:hover .ml-name-xborg {
   top: 10px;
   opacity: 0.2;
 }
@@ -110,20 +71,20 @@ section {
   transition: 0.5s;
 }
 
-.ml-box:hover .ml-detail-button {
+.ml-box-xborg:hover .ml-detail-button {
   opacity: 1;
   bottom: 20px;
 }
 
-.ml-img {
+.ml-img-xborg {
   position: absolute;
-  top: 59%;
-  left: 56%;
+  top: 70%;
+  left: 30%;
   transform: translate(-50%, -52%);
-  max-width: 1000px;
+  width: 800px;
   transition: 0.5s;
 }
 
-.ml-box:hover .ml-img {
+.ml-box-xborg:hover .ml-img-xborg {
   transform: translate(-50%, -52%) rotate(5deg) scale(1.2);
 }

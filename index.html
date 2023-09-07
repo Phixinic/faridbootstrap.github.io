@@ -9,9 +9,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
     <!-- AOS -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-
     <!-- My css -->
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="yss.css" />
+    <link rel="stylesheet" href="x-borg.css" />
 
     <title>FHM Portofolio</title>
   </head>
@@ -26,7 +27,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto ">
             <li class="nav-item">
-              <a class="nav-link nav-home" aria-current="page" href="#home">Home</a>
+              <a class="nav-link active nav-home" aria-current="page" href="#home">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link nav-about" href="#about">About</a>
@@ -54,13 +55,15 @@
       <img src="img/anime.jpg" alt="Sadboy" width="200px" class="rounded-circle img-thumbnail" />
       <h1 class="display-4">Farid Heka Magfirio</h1>
       <p class="lead">Programmer | Gamer</p>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <div class="bghome"></div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" class="bg-img bg-cover">
         <path
           fill="#ffffff"
           fill-opacity="1"
           d="M0,128L36.9,192L73.8,192L110.8,32L147.7,320L184.6,160L221.5,192L258.5,192L295.4,320L332.3,32L369.2,256L406.2,128L443.1,192L480,224L516.9,288L553.8,128L590.8,160L627.7,192L664.6,128L701.5,32L738.5,224L775.4,288L812.3,32L849.2,160L886.2,288L923.1,256L960,128L996.9,32L1033.8,128L1070.8,128L1107.7,288L1144.6,96L1181.5,288L1218.5,0L1255.4,224L1292.3,32L1329.2,224L1366.2,96L1403.1,160L1440,96L1440,320L1403.1,320L1366.2,320L1329.2,320L1292.3,320L1255.4,320L1218.5,320L1181.5,320L1144.6,320L1107.7,320L1070.8,320L1033.8,320L996.9,320L960,320L923.1,320L886.2,320L849.2,320L812.3,320L775.4,320L738.5,320L701.5,320L664.6,320L627.7,320L590.8,320L553.8,320L516.9,320L480,320L443.1,320L406.2,320L369.2,320L332.3,320L295.4,320L258.5,320L221.5,320L184.6,320L147.7,320L110.8,320L73.8,320L36.9,320L0,320Z"></path>
       </svg>
     </section>
+    
     <!-- Akhir jumbotron -->
 
     <!-- About -->
@@ -73,22 +76,25 @@
           </div>
         </div>
         <div class="row justify-content-center fs-5 text-center ">
-          <div class="col-md-4" data-aos="fade-right">
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate, assumenda. Consequatur fugiat doloremque numquam alias saepe quisquam ducimus? Ipsum, eius.</p>
+          <div class="col-md-4" data-aos="fade-right" data-aos-duration="800">
+            <p>Hallo Saya adalah siswa SMKN 1 Lumajang. Saya berjurusan Rekayasa Perangkat Lunak(Generasi 10). Mohon memaklumi website portofolio saya yang sederhana. </p>
           </div>
-          <div class="col-md-4" data-aos="fade-left">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, quis pariatur. Corporis cum quibusdam eum sapiente dolorum atque. Cum ex reiciendis alias commodi ipsum ad.</p>
+          <div class="col-md-4" data-aos="fade-left" data-aos-duration="800" data-aos-delay="200">
+            <p>Hello, I am a student at SMKN 1 Lumajang. I am majoring in Software Engineering (Generation 10). Please enjoy my simple portfolio website and have fun^-^.</p>
           </div>
         </div>
-      </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="#5d91e3"
-          fill-opacity="1"
-          d="M0,0L57.6,320L115.2,32L172.8,256L230.4,224L288,160L345.6,288L403.2,288L460.8,0L518.4,64L576,64L633.6,256L691.2,128L748.8,128L806.4,192L864,160L921.6,32L979.2,160L1036.8,128L1094.4,128L1152,288L1209.6,224L1267.2,288L1324.8,160L1382.4,32L1440,64L1440,320L1382.4,320L1324.8,320L1267.2,320L1209.6,320L1152,320L1094.4,320L1036.8,320L979.2,320L921.6,320L864,320L806.4,320L748.8,320L691.2,320L633.6,320L576,320L518.4,320L460.8,320L403.2,320L345.6,320L288,320L230.4,320L172.8,320L115.2,320L57.6,320L0,320Z"
-        ></path>
-      </svg>
-    </section>
+      </div> 
+      <div id="bgabout"></div>
+     
+    </section> 
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path
+        fill="#5d91e3"
+        fill-opacity="1"
+        d="M0,0L57.6,320L115.2,32L172.8,256L230.4,224L288,160L345.6,288L403.2,288L460.8,0L518.4,64L576,64L633.6,256L691.2,128L748.8,128L806.4,192L864,160L921.6,32L979.2,160L1036.8,128L1094.4,128L1152,288L1209.6,224L1267.2,288L1324.8,160L1382.4,32L1440,64L1440,320L1382.4,320L1324.8,320L1267.2,320L1209.6,320L1152,320L1094.4,320L1036.8,320L979.2,320L921.6,320L864,320L806.4,320L748.8,320L691.2,320L633.6,320L576,320L518.4,320L460.8,320L403.2,320L345.6,320L288,320L230.4,320L172.8,320L115.2,320L57.6,320L0,320Z"
+      ></path>
+    </svg>
+   
     <!-- Akhir About -->
 
     <!-- Projects -->
@@ -102,7 +108,7 @@
         </div>
         <div class="row justify-content-center">
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-down" data-aos-duration="800" data-aos-delay="100">
               <img src="img/programing.jpg" class="card-img-top" alt="Programmer" />
               <div class="card-body">
                 <p class="card-text"> Pemrograman sangat sulit tapi aku sudah ahli dibidangnya. Lihatlah web bagus ini dibuat dengan bagus oleh saya😎.</p>
@@ -110,7 +116,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-down" data-aos-duration="800" data-aos-delay="200">
               <img src="img/designer.jpg" class="card-img-top" alt="Designer" />
               <div class="card-body">
                 <p class="card-text">Terkadang ketika aku memiliki foto yang bagus, aku akan mengeditnya. Tidak jago tapi bolehlah diadu hehe.</p>
@@ -118,7 +124,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-down" data-aos-duration="800" data-aos-delay="300">
               <img src="img/con-creator.PNG" class="card-img-top" alt="Content Creator" />
               <div class="card-body">
                 <p class="card-text">Hanya tiktoklah sosial media dengan follower terbanyak yang aku miliki. Aku suka upload video Mobile Legend disini.</p>
@@ -126,7 +132,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-down" data-aos-duration="800" data-aos-delay="400">
               <img src="img/sport.jpg" class="card-img-top" alt="Sport" />
               <div class="card-body">
                 <p class="card-text"> Kamu tahu? Aku ahli dalam mengangkat beban, bahkan aku bisa mengangkat derajat kedua orang tuaku. Semoga saja😞</p>
@@ -134,7 +140,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-down" data-aos-duration="800" data-aos-delay="500">
               <img src="img/gaming.jpg" class="card-img-top" alt="Gaming" />
               <div class="card-body">
                 <p class="card-text">Ini adalah pencapaian terbesarku dalam hidup. Semua pencapaian diatas ada karena aku sangat menyukai GAME.</p>
@@ -143,6 +149,40 @@
           </div>
         </div>
       </div>
+
+    <section id="mymoba">
+      <div class="container">
+        <div class="row text-center mb3">
+          <div class="col">
+            <h2>My fav hero in Mobile Legend</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-lg-4 mb-3">
+            <div class="ml-box">
+              <h4 class="ml-name">Benedetta</h4>
+              <img src="tilt-img/benedetta_death_oath.png" alt="Benedetta Collector" class="ml-img">
+              <a href="#" class="btn btn-light ml-detail-button">Show detail</a>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-3">
+            <div class="ml-box-yss">
+              <h4 class="ml-name-yss">Yi shun sin</h4>
+              <img src="tilt-img/yi_sun_shin__lone_destructor.png" alt="Yi shun sin Collector" class="ml-img-yss">
+              <a href="#" class="btn btn-light ml-detail-button">Show detail</a>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-3">
+            <div class="ml-box-xborg">
+              <h4 class="ml-name-xborg">Lancelot</h4>
+              <img src="tilt-img/mobile_legends_lancelot_bren.png" alt="X Borg Elite" class="ml-img-xborg">
+              <a href="#" class="btn btn-light ml-detail-button">Show detail</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>  
+
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,96L40,96C80,96,160,96,240,112C320,128,400,160,480,154.7C560,149,640,107,720,117.3C800,128,880,192,960,202.7C1040,213,1120,171,1200,154.7C1280,139,1360,149,1400,154.7L1440,160L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
     </section>
     <!-- Akhir Projects -->
@@ -158,42 +198,42 @@
         <div class="row justify-content-center">
           <div class="col-md-3">
             <a href="#">
-            <img src="gallery/farid.jpg" alt="Farid_1" class="img-fluid gallery-img" />
+            <img src="gallery/farid.jpg" alt="Farid_1" class="img-fluid gallery-img rounded" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="50" />
             </a>
           </div>
           <div class="col-md-3">
             <a href="#">
-            <img src="gallery/farid2.jpg" alt="Farid_1" class="img-fluid gallery-img" />
+            <img src="gallery/farid2.jpg" alt="Farid_1" class="img-fluid gallery-img rounded" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="100" />
             </a>
           </div>
           <div class="col-md-3">
             <a href="#">
-            <img src="gallery/farid3.jpg" alt="Farid_1" class="img-fluid gallery-img" />
+            <img src="gallery/farid3.jpg" alt="Farid_1" class="img-fluid gallery-img rounded" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="150"/>
             </a>
           </div>
           <div class="col-md-3">
             <a href="#">
-            <img src="gallery/farid4.jpg" alt="Farid_1" class="img-fluid gallery-img" />
+            <img src="gallery/farid4.jpg" alt="Farid_1" class="img-fluid gallery-img rounded" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="200" />
             </a>
           </div>
           <div class="col-md-3">
             <a href="#">
-            <img src="gallery/farid5.jpg" alt="Farid_1" class="img-fluid gallery-img" />
+            <img src="gallery/farid5.jpg" alt="Farid_1" class="img-fluid gallery-img rounded" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="250"/>
             </a>
           </div>
           <div class="col-md-3">
             <a href="#">
-            <img src="gallery/farid6.jpg" alt="Farid_1" class="img-fluid gallery-img" />
+            <img src="gallery/farid6.jpg" alt="Farid_1" class="img-fluid gallery-img rounded" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="300"/>
             </a>
           </div>
           <div class="col-md-3">
             <a href="#">
-            <img src="gallery/farid7.jpg" alt="Farid_1" class="img-fluid gallery-img" />
+            <img src="gallery/farid7.jpg" alt="Farid_1" class="img-fluid gallery-img rounded" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="350"/>
             </a>
           </div>
           <div class="col-md-3">
             <a href="#">
-            <img src="gallery/farid8.jpg" alt="Farid_1" class="img-fluid gallery-img" />
+            <img src="gallery/farid8.jpg" alt="Farid_1" class="img-fluid gallery-img rounded" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="400"/>
             </a>
           </div>
         </div>
@@ -256,9 +296,18 @@
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
+      const desainGift = document.querySelectorAll('.desain-gift');
+
+      desainGift.forEach((img, i) =>{
+        img.dataset.aos = 'zoom-in'
+        img.dataset.aosDelay = i * 50;
+        img.dataset.aosDuration = 800;
+      })
+
+    </script>
+    <script>
       AOS.init({
         once: true,
-        duration: 2000,
       });
     </script>
 
@@ -292,5 +341,24 @@
     </script>
 
     <script src="navbar.js"></script>
+    <script type="text/javascript" src="vanilla-tilt.min.js"></script>
+    <script type="text/javascript">
+	  VanillaTilt.init(document.querySelector(".ml-box"), {
+		max: 25,
+		speed: 400
+	});
+    </script>
+    <script type="text/javascript">
+	  VanillaTilt.init(document.querySelector(".ml-box-yss"), {
+		max: 25,
+		speed: 400
+	});
+    </script>
+    <script type="text/javascript">
+	  VanillaTilt.init(document.querySelector(".ml-box-xborg"), {
+		max: 25,
+		speed: 400
+	});
+    </script>
   </body>
 </html>

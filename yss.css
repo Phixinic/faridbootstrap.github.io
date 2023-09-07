@@ -1,44 +1,5 @@
-body {
-  overflow-x: hidden;
-}
-
-.jumbotron {
-  background-color: #5d91e3;
-  padding-top: 7rem;
-}
-
-#projects {
-  background-color: #5d91e3;
-}
-
-#gallery {
-  padding-bottom: 10rem;
-}
-
-section {
-  padding-top: 5rem;
-}
-
-.gallery-img {
-  width: 100%;
-}
-
-#gallery .row > * {
-  padding: 0;
-}
-
-.bghome {
-  background-color: #5d91e3;
-  height: 5rem;
-}
-
-#bgabout {
-  background-color: white;
-  height: 10rem;
-}
-
 /* My fav hero in Mobile legend */
-.ml-box {
+.ml-box-yss {
   position: relative;
   background-color: #0d6efd;
   border-radius: 10px;
@@ -46,7 +7,7 @@ section {
   overflow: hidden;
 }
 
-.ml-box::before {
+.ml-box-yss::before {
   content: 'HEKA';
   position: absolute;
   color: #fff;
@@ -60,14 +21,14 @@ section {
   z-index: 1;
 }
 
-.ml-box:hover::before {
-  left: 72%;
+.ml-box-yss:hover::before {
+  left: 45%;
   transform: translate(-50%, 0);
   opacity: 0.3;
 }
 
-.ml-box::after {
-  content: 'Benedetta';
+.ml-box-yss::after {
+  content: 'Yishunsin';
   position: absolute;
   color: #fff;
   font-size: 4.3em;
@@ -79,13 +40,13 @@ section {
   transition: 0.5s;
 }
 
-.ml-box:hover::after {
+.ml-box-yss:hover::after {
   left: 50%;
   transform: translate(-50%, 0);
-  opacity: 0.2;
+  opacity: 0.3;
 }
 
-.ml-name {
+.ml-name-yss {
   position: absolute;
   width: 100%;
   color: #fff;
@@ -93,10 +54,10 @@ section {
   font-size: 2em;
   opacity: 0;
   transition: 0.5s;
-  left: 25%;
+  left: -5%;
 }
 
-.ml-box:hover .ml-name {
+.ml-box-yss:hover .ml-name-yss {
   top: 10px;
   opacity: 0.2;
 }
@@ -110,20 +71,20 @@ section {
   transition: 0.5s;
 }
 
-.ml-box:hover .ml-detail-button {
+.ml-box-yss:hover .ml-detail-button {
   opacity: 1;
   bottom: 20px;
 }
 
-.ml-img {
+.ml-img-yss {
   position: absolute;
-  top: 59%;
-  left: 56%;
+  top: 61%;
+  left: 33%;
   transform: translate(-50%, -52%);
-  max-width: 1000px;
+  max-width: 900px;
   transition: 0.5s;
 }
 
-.ml-box:hover .ml-img {
+.ml-box-yss:hover .ml-img-yss {
   transform: translate(-50%, -52%) rotate(5deg) scale(1.2);
 }
