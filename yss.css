@@ -28,22 +28,26 @@
 }
 
 .ml-box-yss::after {
-  content: 'Yishunsin';
+  content: 'LoneDestructor';
   position: absolute;
   color: #fff;
-  font-size: 4.3em;
+  font-size: 2em;
   font-weight: bold;
   font-style: italic;
-  top: 350px;
+  top: 390px;
   left: 450px;
   opacity: 0;
   transition: 0.5s;
+  color: #e3cd0f;
+  text-decoration: wavy;
+  letter-spacing: 4px;
+  -webkit-text-stroke: 2px #714458;
 }
 
 .ml-box-yss:hover::after {
   left: 50%;
   transform: translate(-50%, 0);
-  opacity: 0.3;
+  opacity: 0.5;
 }
 
 .ml-name-yss {

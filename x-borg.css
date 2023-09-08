@@ -28,16 +28,19 @@
 }
 
 .ml-box-xborg::after {
-  content: 'Xborg';
+  text-align: center;
+  content: 'Cleopatra';
   position: absolute;
   color: #fff;
-  font-size: 4.3em;
+  font-size: 2em;
   font-weight: bold;
   font-style: italic;
-  top: 350px;
+  top: 390px;
   left: 450px;
   opacity: 0;
   transition: 0.5s;
+  letter-spacing: 3px;
+  -webkit-text-stroke: 2px #e1b364;
 }
 
 .ml-box-xborg:hover::after {
@@ -78,11 +81,12 @@
 
 .ml-img-xborg {
   position: absolute;
-  top: 70%;
-  left: 30%;
+  top: 58%;
+  left: 75%;
   transform: translate(-50%, -52%);
   width: 800px;
   transition: 0.5s;
+  filter: brightness(110%);
 }
 
 .ml-box-xborg:hover .ml-img-xborg {

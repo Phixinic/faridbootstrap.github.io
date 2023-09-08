@@ -38,6 +38,14 @@ section {
 }
 
 /* My fav hero in Mobile legend */
+.fav {
+  text-align: center;
+  color: #b9724a;
+  font-size: 50px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-decoration: wavy;
+}
+
 .ml-box {
   position: relative;
   background-color: #0d6efd;
@@ -67,22 +75,25 @@ section {
 }
 
 .ml-box::after {
-  content: 'Benedetta';
+  content: 'DeathOath';
   position: absolute;
   color: #fff;
-  font-size: 4.3em;
+  font-size: 2em;
   font-weight: bold;
   font-style: italic;
-  top: 350px;
+  top: 390px;
   left: 450px;
   opacity: 0;
   transition: 0.5s;
+  color: #fc4cdd;
+  letter-spacing: 4px;
+  -webkit-text-stroke: 2px #522452;
 }
 
 .ml-box:hover::after {
   left: 50%;
   transform: translate(-50%, 0);
-  opacity: 0.2;
+  opacity: 0.5;
 }
 
 .ml-name {
